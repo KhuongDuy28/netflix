@@ -1,0 +1,110 @@
+.footer-container {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+
+.footer-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-1 a, .footer-1 p {
+    color: gainsboro;
+    font-size: 14px;
+}
+
+.footer-1 > p {
+    color: gainsboro;
+}
+
+.language-bottom {
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    height: 22px;
+    width: 105px;
+    margin: 20px 0;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer-container {
+        background-color: black;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 60px;
+    }
+    
+    .footer-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-1 a, .footer-1 p {
+        color: gainsboro;
+        font-size: 14px;
+    }
+
+    .footer-1 > p {
+        color: gainsboro;
+    }
+
+    .language-bottom {
+        background-color: black;
+        color: #fff;
+        border-radius: 5px;
+        height: 22px;
+        width: 105px;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer-container {
+        background-color: black;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 60px;
+    }
+    
+    .footer-1 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-1 a {
+        color: gainsboro;
+        font-size: 18px;
+    
+    }
+    
+    a:hover {
+        color: gainsboro;
+        cursor: pointer;
+    }
+    
+    .language-bottom {
+        background-color: black;
+        color: #fff;
+        height: 40px;
+        width: 150px;
+        margin-top: 40px;
+        border: 2px solid white;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    .language-bottom option {
+        background-color: white;
+    }
+    
+    #globe {
+        color: #fff;
+    }
+    
+    .footer-1 p {
+        font-size: 18px;
+        color: gainsboro;
+    }
+}

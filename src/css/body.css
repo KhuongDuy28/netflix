@@ -1,0 +1,359 @@
+@media screen and (max-width: 767px) {
+
+}
+
+.body-container {
+    padding-top: 72px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-6, .body-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.body-7, .body-9 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.text-body-6, .text-body-8, .text-body-7, .text-body-9 {
+    width: 80%;
+    text-align: center;
+}
+
+
+.img-body-6 > img, .img-body-7 > img, .img-body-8 > img, .img-body-9 > img, .img-body-10 > img {
+    width: 100%;
+}
+
+.img-body-7 {
+    position: relative;
+    height: 100%;
+    width: auto;
+    /* z-index: 0; */
+}
+
+.download-mobi {
+    display: flex;
+    height: 20%;
+    width: 55%;
+    position: absolute;
+    /* z-index: 1; */
+    bottom: 9%;
+    right: 23.5%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: black;
+    align-items: center;
+}
+
+.download-mobi > img {
+    height: 85%;
+    width: 17%;
+    /* padding-right: 10px; */
+}
+
+.text-download {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.text-download > p {
+    font-size: 15px;
+    color: #0071eb;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.text-download > h3 {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    text-align: start;
+    margin-left: 10px;
+}
+
+
+#icon-download {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+p {
+    font-size: 12px;
+    color: #fff;
+}
+
+h1 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.question {
+    height: 70px;
+    width: 92%;
+    border-radius: 0;
+    margin-bottom: 10px;
+    background-color: rgb(57, 55, 55);
+    color: #fff;
+    text-align: left;
+    font-size: 27px;
+    position: relative;
+    font-size: 15px;
+}
+
+h3 {
+    color: #fff;
+    text-align: center;
+    padding: 0 65px;
+}
+
+#icon-plus {
+    position: absolute;
+    font-size: 30px;
+    right: 15px;
+}
+
+.email-start {
+    margin-bottom: 72px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .body-container {
+        padding-top: 72px;
+        background-color: black;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .body-1, .body-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .body-2, .body-4 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .text-body-1, .text-body-3, .text-body-2, .text-body-4 {
+        width: 93%;
+        text-align: center;
+    }
+    
+    .img-body-2 {
+        position: relative;
+        height: auto;
+        width: auto;
+        /* z-index: 0; */
+    }
+    
+    .download {
+        display: flex;
+        height: 100px;
+        width: 340px;
+        position: absolute;
+        /* z-index: 1; */
+        bottom: 9%;
+        right: 23.5%;
+        border-radius: 10px;
+        border: 1px solid gray;
+        background-color: black;
+        align-items: center;
+    }
+    
+    .download > img {
+        height: 80px;
+        width: 60px;
+        padding-left: 10px;
+    }
+    
+    .text-download > p {
+        font-size: 15px;
+        margin: 0 0 0 20px;
+        color: #0071eb;
+    }
+    
+    .text-download > h3 {
+        margin: 0 0 0 20px;
+    }
+    
+    #icon-download {
+        color: #fff;
+        font-size: 20px;
+        margin-left: 70px;
+    }
+    
+    .text-body-1 p, .text-body-2 p, .text-body-3 p, .text-body-4 p, .text-body-5 p {
+        font-size: 19px;
+        color: #fff;
+    }
+    
+    h1 {
+        font-size: 30px;
+        color: #fff;
+    }
+    
+    .question {
+        height: 70px;
+        width: 92%;
+        border-radius: 0;
+        margin-bottom: 10px;
+        background-color: rgb(57, 55, 55);
+        color: #fff;
+        text-align: left;
+        font-size: 27px;
+        position: relative;
+        font-size: 20px;
+    }
+    
+    h3 {
+        color: #fff;
+        text-align: center;
+        padding: 0 65px;
+    }
+    
+    #icon-plus {
+        position: absolute;
+        font-size: 30px;
+        right: 20px;
+    }
+    
+    .email-start {
+        margin-bottom: 72px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .body-container {
+        padding-top: 165px;
+        background-color: black;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .body-1, .body-2, .body-3, .body-4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .text-body-1, .img-body-2, .text-body-3, .img-body-4 {
+        width: 50%;
+        margin-left: 175px;
+    }
+
+    .text-body-1, .text-body-2, .text-body-3, .text-body-4 {
+        text-align: start;
+    }
+    
+    .img-body-2 {
+        position: relative;
+        height: 100%;
+        width: auto;
+        /* z-index: 0; */
+    }
+    
+    .download {
+        display: flex;
+        height: 100px;
+        width: 340px;
+        position: absolute;
+        /* z-index: 1; */
+        bottom: 9%;
+        right: 23.5%;
+        border-radius: 10px;
+        border: 1px solid gray;
+        background-color: black;
+        align-items: center;
+    }
+    
+    .download > img {
+        height: 80px;
+        width: 60px;
+        padding-left: 10px;
+    }
+    
+    .text-download > p {
+        font-size: 15px;
+        margin: 0 0 0 20px;
+        color: #0071eb;
+    }
+    
+    .text-download > h3 {
+        margin: 0 0 0 20px;
+    }
+    
+    #icon-download {
+        color: #fff;
+        font-size: 20px;
+        margin-left: 70px;
+    }
+    
+    .text-body-1 p, .text-body-2 p, .text-body-3 p, .text-body-4 p {
+        font-size: 30px;
+        color: #fff;
+    }
+    
+    h1 {
+        font-size: 56px;
+        color: #fff;
+    }
+    
+    .img-body-1, .text-body-2, .img-body-3, .text-body-4 {
+        width: 50%;
+        margin-right: 175px;
+    }
+    
+    .text-body-2 > h1 {
+        padding-top: 80px;
+    }
+    
+    .question {
+        height: 90px;
+        width: 75%;
+        border-radius: 0;
+        margin-bottom: 10px;
+        background-color: rgb(57, 55, 55);
+        color: #fff;
+        text-align: left;
+        font-size: 27px;
+    }
+    
+    h3 {
+        color: #fff;
+    }
+    
+    #icon-plus {
+        position: absolute;
+        font-size: 40px;
+        right: 20px;
+    }
+    
+    .email-start {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 72px;
+    }
+    
+}
